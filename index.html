@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="main.css">
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $( document ).ready(function() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const names = urlParams.get('names');
+    
+    var envelope = $('#envelope');
+    var btn_open = $("#open");
+    var btn_reset = $("#reset");
+    var div_names = $("#names");
+    
+    console.log(div_names);
+    
+    div_names.text(names);
+    
+    envelope.click( function() {
+        open();
+    });
+    btn_open.click( function() {
+        open();
+    });
+    btn_reset.click( function() {
+        close();
+    });
+
+    function open() {
+        envelope.addClass("open")
+           .removeClass("close");
+    }
+    function close() {
+        envelope.addClass("close")
+           .removeClass("open");
+    }
+   
+});
+</script>
+
+<body class="fullpage">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+
+
+<div class="envlope-wrapper">
+    <div id="envelope" class="close">
+        <div class="front flap"><div class="seal"></div></div>
+        <div class="front pocket">
+            <div class="names" id="names"></div>
+        </div>
+        <div class="letter">
+            <img src="https://media.discordapp.net/attachments/264406055478362112/1521936273294627046/photo_2026-07-01_14-47-57.jpg?ex=6a46a51b&is=6a45539b&hm=7bbb3dbc02ca8017571eb41ec468043ac1b3d0ec4fe2b58675df1c5867f31b92&=&format=webp&width=1181&height=838" width="90%">
+        </div>
+        <div class="hearts">
+            <div class="heart a1"></div>
+            <div class="heart a2"></div>
+            <div class="heart a3"></div>
+        </div>
+    </div>
+</div>
+<div class="reset">
+    <button id="open">Abrir</button>
+</div>
+</body>
+
+
+    
+</html>
