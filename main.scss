@@ -5,7 +5,7 @@ $color-bg           : lighten($color-env, 48%);
 $color-heart        : #660000; 
 
 $env-border-radius  : 6px;
-$env-width          : 380px;
+$env-width          : 680px;
 $env-height         : $env-width - 100px;
 $heart-width        : 50px;
 
@@ -32,10 +32,10 @@ $heart-width        : 50px;
 
 .seal {
     background: #66000000   ; 
-    width: 70px; 
-    height: 70px; 
-    border-radius: 35px;
-    transform: translate(-35px, -40px); 
+    width: 120px; 
+    height: 120px; 
+    border-radius: 60px;
+    transform: translate(-60px, -50px); 
     background-image: url("https://media.discordapp.net/attachments/264406055478362112/1521970381328482436/selo.png?ex=6a46c4df&is=6a45735f&hm=6954458292d5e4079f3540465ccfdcf4c082204c52e3460f2359f1f5bcd88332&=&format=webp&quality=lossless");
     background-repeat: no-repeat;
     background-size: contain;
@@ -291,4 +291,11 @@ body {
 .reset button:hover {
     background-color: $color-env;
     color: #fff;
+}
+
+.fullpage {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
 }

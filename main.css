@@ -1,7 +1,7 @@
 #envelope {
   position: relative;
-  width: 380px;
-  height: 280px;
+  width: 680px;
+  height: 580px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-left: auto;
@@ -21,10 +21,10 @@
 
 .seal {
   background: rgba(102, 0, 0, 0);
-  width: 70px;
-  height: 70px;
-  border-radius: 35px;
-  transform: translate(-35px, -40px);
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  transform: translate(-60px, -50px);
   background-image: url("https://media.discordapp.net/attachments/264406055478362112/1521970381328482436/selo.png?ex=6a46c4df&is=6a45735f&hm=6954458292d5e4079f3540465ccfdcf4c082204c52e3460f2359f1f5bcd88332&=&format=webp&quality=lossless");
   background-repeat: no-repeat;
   background-size: contain;
@@ -43,19 +43,19 @@
 }
 
 .flap {
-  border-left: 190px solid transparent;
-  border-right: 190px solid transparent;
-  border-bottom: 132px solid transparent; /* a little smaller */
-  border-top: 148px solid black; /* a little larger */
+  border-left: 340px solid transparent;
+  border-right: 340px solid transparent;
+  border-bottom: 282px solid transparent; /* a little smaller */
+  border-top: 298px solid black; /* a little larger */
   transform-origin: top;
   pointer-events: none;
 }
 
 .pocket {
-  border-left: 190px solid #333;
-  border-right: 190px solid #333;
-  border-bottom: 140px solid rgb(43.35, 43.35, 43.35);
-  border-top: 140px solid transparent;
+  border-left: 340px solid #333;
+  border-right: 340px solid #333;
+  border-bottom: 290px solid rgb(43.35, 43.35, 43.35);
+  border-top: 290px solid transparent;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -138,12 +138,12 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-280px);
+    transform: translateY(-580px);
   }
 }
 .hearts {
   position: absolute;
-  top: 140px;
+  top: 290px;
   left: 0;
   right: 0;
   z-index: 2;
@@ -258,7 +258,7 @@ body {
 }
 
 .envlope-wrapper {
-  height: 480px;
+  height: 780px;
 }
 
 .reset {
@@ -288,6 +288,13 @@ body {
 .reset button:hover {
   background-color: #333;
   color: #fff;
+}
+
+.fullpage {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */
