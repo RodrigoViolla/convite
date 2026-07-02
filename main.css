@@ -1,7 +1,7 @@
 #envelope {
   position: relative;
-  width: 680px;
-  height: 500px;
+  width: 800px;
+  height: 620px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-left: auto;
@@ -12,11 +12,11 @@
 }
 
 .names {
-  color: #999;
-  transform: translate(-300px, 180px);
-  width: 200px;
-  font-family: "Playwrite NZ", cursive;
-  font-size: 20px;
+  color: #bbb;
+  transform: translate(-370px, 220px);
+  width: 300px;
+  font-family: "Lavishly Yours", cursive;
+  font-size: 50px;
 }
 
 .seal {
@@ -43,19 +43,19 @@
 }
 
 .flap {
-  border-left: 340px solid transparent;
-  border-right: 340px solid transparent;
-  border-bottom: 242px solid transparent; /* a little smaller */
-  border-top: 258px solid black; /* a little larger */
+  border-left: 400px solid transparent;
+  border-right: 400px solid transparent;
+  border-bottom: 302px solid transparent; /* a little smaller */
+  border-top: 318px solid black; /* a little larger */
   transform-origin: top;
   pointer-events: none;
 }
 
 .pocket {
-  border-left: 340px solid #333;
-  border-right: 340px solid #333;
-  border-bottom: 250px solid rgb(43.35, 43.35, 43.35);
-  border-top: 250px solid transparent;
+  border-left: 400px solid #333;
+  border-right: 400px solid #333;
+  border-bottom: 310px solid rgb(43.35, 43.35, 43.35);
+  border-top: 310px solid transparent;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -138,12 +138,12 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-500px);
+    transform: translateY(-620px);
   }
 }
 .hearts {
   position: absolute;
-  top: 250px;
+  top: 310px;
   left: 0;
   right: 0;
   z-index: 2;
@@ -258,7 +258,7 @@ body {
 }
 
 .envlope-wrapper {
-  height: 700px;
+  height: 820px;
 }
 
 .reset {

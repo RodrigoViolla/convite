@@ -5,7 +5,7 @@ $color-bg           : lighten($color-env, 48%);
 $color-heart        : #660000; 
 
 $env-border-radius  : 6px;
-$env-width          : 680px;
+$env-width          : 800px;
 $env-height         : $env-width - 180px;
 $heart-width        : 50px;
 
@@ -23,12 +23,12 @@ $heart-width        : 50px;
 }
 
 .names {
-    color: #999;
-    transform: translate(-300px, 180px);
-    width: 200px;
-    font-family: "Playwrite NZ", cursive;
-    font-size: 20px;
-}
+    color: #bbb;
+    transform: translate(-370px, 220px);
+    width: 300px;
+    font-family: "Lavishly Yours", cursive;
+    font-size: 50px;
+  }
 
 .seal {
     background: #66000000   ; 
