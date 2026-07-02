@@ -6,7 +6,7 @@ $color-heart        : #660000;
 
 $env-border-radius  : 6px;
 $env-width          : 680px;
-$env-height         : $env-width - 100px;
+$env-height         : $env-width - 180px;
 $heart-width        : 50px;
 
 #envelope {
@@ -24,10 +24,10 @@ $heart-width        : 50px;
 
 .names {
     color: #999;
-    transform: translate(-160px, 100px);
+    transform: translate(-300px, 180px);
     width: 200px;
     font-family: "Playwrite NZ", cursive;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .seal {

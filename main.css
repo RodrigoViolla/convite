@@ -1,7 +1,7 @@
 #envelope {
   position: relative;
   width: 680px;
-  height: 580px;
+  height: 500px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-left: auto;
@@ -13,10 +13,10 @@
 
 .names {
   color: #999;
-  transform: translate(-160px, 100px);
+  transform: translate(-300px, 180px);
   width: 200px;
   font-family: "Playwrite NZ", cursive;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .seal {
@@ -45,8 +45,8 @@
 .flap {
   border-left: 340px solid transparent;
   border-right: 340px solid transparent;
-  border-bottom: 282px solid transparent; /* a little smaller */
-  border-top: 298px solid black; /* a little larger */
+  border-bottom: 242px solid transparent; /* a little smaller */
+  border-top: 258px solid black; /* a little larger */
   transform-origin: top;
   pointer-events: none;
 }
@@ -54,8 +54,8 @@
 .pocket {
   border-left: 340px solid #333;
   border-right: 340px solid #333;
-  border-bottom: 290px solid rgb(43.35, 43.35, 43.35);
-  border-top: 290px solid transparent;
+  border-bottom: 250px solid rgb(43.35, 43.35, 43.35);
+  border-top: 250px solid transparent;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -138,12 +138,12 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-580px);
+    transform: translateY(-500px);
   }
 }
 .hearts {
   position: absolute;
-  top: 290px;
+  top: 250px;
   left: 0;
   right: 0;
   z-index: 2;
@@ -258,7 +258,7 @@ body {
 }
 
 .envlope-wrapper {
-  height: 780px;
+  height: 700px;
 }
 
 .reset {
